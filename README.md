@@ -1,4 +1,14 @@
-iroha Board はメンテナンスフェーズに移行しました。
+# iroha Boardをphp8.4で動かすためにCakePHP2.10を暫定的に修正して一緒に配布
+
+すぐに移行できない方がいたら、libフォルダだけでも差し替えるとPHP8.4でも動きます。
+今後運用を続けるなら下記のようなメンテナンスが続いていてComposerで管理できるように変更してください。
+
+※在籍している企業でirohaboardを一時的に運用するために修正したもの
+
+## CakePHP 2.x - Community Maintained Fork
+https://github.com/pieceofcake2/cakephp
+
+# iroha Board はメンテナンスフェーズに移行しました。
 
 今後は必要最小限の保守対応のみを行い、段階的にサポートを縮小してまいります。  
 2016年からの長きにわたり、iroha Board をご利用いただき誠にありがとうございました。
