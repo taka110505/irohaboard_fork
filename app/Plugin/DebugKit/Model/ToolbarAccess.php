@@ -13,13 +13,14 @@
  */
 
 App::uses('ConnectionManager', 'Model');
+App::uses('CakeObject', 'Core');
 
 /**
  * Class ToolbarAccess
  *
  * Contains logic for accessing DebugKit specific information.
  */
-class ToolbarAccess extends Object {
+class ToolbarAccess extends CakeObject {
 
 /**
  * Runs an explain on a query if the connection supports EXPLAIN.

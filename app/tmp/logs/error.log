@@ -1,0 +1,85 @@
+2026-10-23 12:24:46 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1698] Access denied for user \'root\'@\'localhost\'',
+  'enabled' => true,
+)
+Request URL: /irohaboard_fork/
+Stack Trace:
+#0 /var/www/html/irohaboard_fork/lib/Cake/Model/Datasource/DboSource.php(278): Mysql->connect()
+#1 /var/www/html/irohaboard_fork/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/irohaboard_fork/lib/Cake/Model/Model.php(3659): ConnectionManager::getDataSource('default')
+#3 /var/www/html/irohaboard_fork/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/irohaboard_fork/lib/Cake/Model/Model.php(3686): Model->setSource('settings')
+#5 /var/www/html/irohaboard_fork/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#6 /var/www/html/irohaboard_fork/app/Model/Setting.php(36): Model->query('SELECT setting_...')
+#7 /var/www/html/irohaboard_fork/app/Controller/AppController.php(98): Setting->getSettings()
+#8 /var/www/html/irohaboard_fork/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#9 /var/www/html/irohaboard_fork/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/html/irohaboard_fork/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#11 /var/www/html/irohaboard_fork/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersCoursesController), Object(CakeRequest))
+#12 /var/www/html/irohaboard_fork/app/webroot/index.php(210): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2026-10-23 12:29:35 Error: [MissingTableException] Table ib_settings for model Setting was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ib_settings',
+  'class' => 'Setting',
+  'ds' => 'default',
+)
+Request URL: /irohaboard_fork/
+Stack Trace:
+#0 /var/www/html/irohaboard_fork/lib/Cake/Model/Model.php(3686): Model->setSource('settings')
+#1 /var/www/html/irohaboard_fork/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#2 /var/www/html/irohaboard_fork/app/Model/Setting.php(36): Model->query('SELECT setting_...')
+#3 /var/www/html/irohaboard_fork/app/Controller/AppController.php(98): Setting->getSettings()
+#4 /var/www/html/irohaboard_fork/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#5 /var/www/html/irohaboard_fork/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/html/irohaboard_fork/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/html/irohaboard_fork/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersCoursesController), Object(CakeRequest))
+#8 /var/www/html/irohaboard_fork/app/webroot/index.php(210): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2026-10-23 12:29:57 Error: [MissingTableException] Table ib_settings for model Setting was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ib_settings',
+  'class' => 'Setting',
+  'ds' => 'default',
+)
+Request URL: /irohaboard_fork/
+Stack Trace:
+#0 /var/www/html/irohaboard_fork/lib/Cake/Model/Model.php(3686): Model->setSource('settings')
+#1 /var/www/html/irohaboard_fork/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#2 /var/www/html/irohaboard_fork/app/Model/Setting.php(36): Model->query('SELECT setting_...')
+#3 /var/www/html/irohaboard_fork/app/Controller/AppController.php(98): Setting->getSettings()
+#4 /var/www/html/irohaboard_fork/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#5 /var/www/html/irohaboard_fork/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/html/irohaboard_fork/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/html/irohaboard_fork/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersCoursesController), Object(CakeRequest))
+#8 /var/www/html/irohaboard_fork/app/webroot/index.php(210): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2026-10-23 12:38:27 Error: [MissingTableException] Table ib_settings for model Setting was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ib_settings',
+  'class' => 'Setting',
+  'ds' => 'default',
+)
+Request URL: /irohaboard_fork/
+Stack Trace:
+#0 /var/www/html/irohaboard_fork/lib/Cake/Model/Model.php(3686): Model->setSource('settings')
+#1 /var/www/html/irohaboard_fork/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#2 /var/www/html/irohaboard_fork/app/Model/Setting.php(36): Model->query('SELECT setting_...')
+#3 /var/www/html/irohaboard_fork/app/Controller/AppController.php(98): Setting->getSettings()
+#4 /var/www/html/irohaboard_fork/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#5 /var/www/html/irohaboard_fork/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/html/irohaboard_fork/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/html/irohaboard_fork/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersCoursesController), Object(CakeRequest))
+#8 /var/www/html/irohaboard_fork/app/webroot/index.php(210): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2026-10-23 12:39:36 Error: [MissingControllerException] Controller class Install4Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Install4Controller',
+  'plugin' => NULL,
+)
+Request URL: /irohaboard_fork/install4
+Stack Trace:
+#0 /var/www/html/irohaboard_fork/app/webroot/index.php(210): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

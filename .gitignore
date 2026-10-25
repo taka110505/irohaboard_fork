@@ -1,0 +1,12 @@
+# 設定ファイル
+.env
+config/app_local.php
+
+# OS依存ファイル
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.cursor

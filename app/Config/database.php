@@ -6,7 +6,7 @@ class DATABASE_CONFIG
 		'datasource' => 'Database/Mysql', // 変更しないでください
 		'persistent' => true,
 		'host' => 'localhost', // MySQLサーバのホスト名
-		'login' => 'root', // ユーザ名
+		'login' => '', // ユーザ名
 		'password' => '', // パスワード
 		'database' => 'irohaboard', // データベース名
 		'prefix' => 'ib_', // 変更しないでください
